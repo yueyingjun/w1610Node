@@ -5,6 +5,23 @@ var config=require("./config");
 var zlib=require("zlib");
 
 /*
+
+    nodejs
+
+     apache 类似的一种服务器
+     单入口文件  mvc
+
+      controller
+
+      modle->view
+
+
+
+
+
+
+
+
 *    客户端                  服务器
 *    1.html                 1.html->修改
 *    如何知道我服务器的内容修改了
@@ -19,27 +36,17 @@ var zlib=require("zlib");
 *
 *
 *      动态的服务器
-*
 *      读取地址栏里面的查询
- *
- *
  *      php
-*
 *      nodejs   mvc
-*
 *      c  ->  地址栏
-*
-*
 *      v
-*
-*
 *      m  ->
-*
-*
-*
-*
 * */
+var cookies={};
+
 var obj=http.createServer(function(req,res){
+
     var url=path.parse(req.url);
     if(url.base=="favicon.ico"){
         res.end();
@@ -81,7 +88,6 @@ var obj=http.createServer(function(req,res){
                    res.writeHead(200, {
                        "content-type": type + ";charset=utf-8"
                    });
-
 
                    //console.log(req.headers);
                    res.write(file);
