@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a5a8e71-3759-46a4-a68f-a24c27b2e7ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Buffer/buffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/src/js/1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/src/js/2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/src/less/1.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/trans.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/http/abcd.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/through.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/http/app.js" afterPath="$PROJECT_DIR$/http/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/http/demo.html" afterPath="$PROJECT_DIR$/http/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/http/server.js" afterPath="$PROJECT_DIR$/http/server.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +27,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stream.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stream.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stream/stream.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="24">
+              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="through.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream/through.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -81,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/binding.gyp" />
-        <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/1.php" />
         <option value="$PROJECT_DIR$/node_modules/js.js" />
         <option value="$PROJECT_DIR$/node_modules/js/index.js" />
@@ -132,6 +139,8 @@
         <option value="$PROJECT_DIR$/stream/trans.js" />
         <option value="$PROJECT_DIR$/stream/1.txt" />
         <option value="$PROJECT_DIR$/stream/stream.js" />
+        <option value="$PROJECT_DIR$/stream/index.js" />
+        <option value="$PROJECT_DIR$/stream/through.js" />
       </list>
     </option>
   </component>
@@ -150,6 +159,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Buffer/node_modules" />
     <handled-path value="$PROJECT_DIR$/gulp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -230,13 +240,7 @@
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.stream.js (1)">
-    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/http">
-      <method />
-    </configuration>
-    <configuration default="false" name="stream.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="stream.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration default="false" name="buffer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="buffer.js" working-dir="$PROJECT_DIR$/Buffer">
       <method />
     </configuration>
@@ -244,6 +248,12 @@
       <method />
     </configuration>
     <configuration default="false" name="trans.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="trans.js" working-dir="$PROJECT_DIR$/stream">
+      <method />
+    </configuration>
+    <configuration default="false" name="through.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="through.js" working-dir="$PROJECT_DIR$/stream">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/stream">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -303,19 +313,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.stream.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.buffer.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.stream.js (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.trans.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.buffer.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.stream.js (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.trans.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.through.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.stream.js (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.trans.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.buffer.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.stream.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.through.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.stream.js (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.trans.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.buffer.js" />
       </list>
     </recent_temporary>
   </component>
@@ -356,12 +366,12 @@
       <workItem from="1492505805332" duration="3099000" />
       <workItem from="1492515773874" duration="16000" />
       <workItem from="1492570037997" duration="4151000" />
-      <workItem from="1492584746722" duration="8237000" />
+      <workItem from="1492584746722" duration="9590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95459000" />
+    <option name="totallyTimeSpent" value="96812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,9 +391,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3417191" sideWeight="0.5040733" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.389011" sideWeight="0.49592668" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.389011" sideWeight="0.49592668" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4245614" sideWeight="0.49592668" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50109893" sideWeight="0.49592668" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -406,14 +416,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.js" />
     <entry file="file://$PROJECT_DIR$/www/1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -706,8 +708,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stream/stream.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="24">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/through.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding />
         </state>
       </provider>
