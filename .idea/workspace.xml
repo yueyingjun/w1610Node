@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a5a8e71-3759-46a4-a68f-a24c27b2e7ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/http/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/http/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Buffer/buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/src/js/1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/src/js/2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/src/less/1.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/trans.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/http/abcd.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/http/app.js" afterPath="$PROJECT_DIR$/http/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/http/demo.html" afterPath="$PROJECT_DIR$/http/demo.html" />
@@ -19,54 +27,42 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="99" column="34" lean-forward="false" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ejs.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/http/ejs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/demo.html">
+      <file leaf-file-name="stream.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream/stream.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/app.js">
+      <file leaf-file-name="trans.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/trans.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="24">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/list.html">
+      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -85,19 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo.node" />
-        <option value="$PROJECT_DIR$/build/Release/addon.node" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/html/2.js" />
-        <option value="$PROJECT_DIR$/html/require.js" />
-        <option value="$PROJECT_DIR$/html/1.js" />
-        <option value="$PROJECT_DIR$/html/index.js" />
-        <option value="$PROJECT_DIR$/html/b.js" />
-        <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/html/a.js" />
-        <option value="$PROJECT_DIR$/demo.json" />
-        <option value="$PROJECT_DIR$/hello.js" />
-        <option value="$PROJECT_DIR$/hello.cc" />
         <option value="$PROJECT_DIR$/binding.gyp" />
         <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/1.php" />
@@ -123,10 +106,32 @@
         <option value="$PROJECT_DIR$/http/static/1.css" />
         <option value="$PROJECT_DIR$/http/static/js/1.js" />
         <option value="$PROJECT_DIR$/http/list.html" />
-        <option value="$PROJECT_DIR$/http/server.js" />
-        <option value="$PROJECT_DIR$/http/app.js" />
-        <option value="$PROJECT_DIR$/http/demo.html" />
         <option value="$PROJECT_DIR$/http/ejs.js" />
+        <option value="$PROJECT_DIR$/http/app.js" />
+        <option value="$PROJECT_DIR$/http/server.js" />
+        <option value="$PROJECT_DIR$/demo/package.json" />
+        <option value="$PROJECT_DIR$/http/package.json" />
+        <option value="$PROJECT_DIR$/http/css/1.css" />
+        <option value="$PROJECT_DIR$/http/mycss/1.js" />
+        <option value="$PROJECT_DIR$/http/gulpfile.js" />
+        <option value="$PROJECT_DIR$/http/demo.html" />
+        <option value="$PROJECT_DIR$/http/css/1.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulp/dest/js/1.js" />
+        <option value="$PROJECT_DIR$/gulp/package.json" />
+        <option value="$PROJECT_DIR$/gulp/src/css/1.css" />
+        <option value="$PROJECT_DIR$/gulp/dest/css/1.css" />
+        <option value="$PROJECT_DIR$/gulp/src/js/1.js" />
+        <option value="$PROJECT_DIR$/gulp/1.html" />
+        <option value="$PROJECT_DIR$/gulp/src/less/1.less" />
+        <option value="$PROJECT_DIR$/gulp/src/js/2.js" />
+        <option value="$PROJECT_DIR$/stream.js" />
+        <option value="$PROJECT_DIR$/gulp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/Buffer/package.json" />
+        <option value="$PROJECT_DIR$/Buffer/buffer.js" />
+        <option value="$PROJECT_DIR$/stream/trans.js" />
+        <option value="$PROJECT_DIR$/stream/1.txt" />
+        <option value="$PROJECT_DIR$/stream/stream.js" />
       </list>
     </option>
   </component>
@@ -142,10 +147,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Buffer/node_modules" />
+    <handled-path value="$PROJECT_DIR$/gulp/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1024" />
-    <option name="height" value="640" />
+    <option name="height" value="547" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -162,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,12 +194,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
+              <option name="myItemId" value="stream" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,35 +214,36 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.2" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulp" />
       <recent name="$PROJECT_DIR$/http/static/css" />
       <recent name="$PROJECT_DIR$/http" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo" />
       <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.ejs.js">
-    <configuration default="false" name="http.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="http.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.stream.js (1)">
     <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/http">
       <method />
     </configuration>
-    <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/http">
+    <configuration default="false" name="stream.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="stream.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="ejs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ejs.js" working-dir="$PROJECT_DIR$/http">
+    <configuration default="false" name="buffer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="buffer.js" working-dir="$PROJECT_DIR$/Buffer">
+      <method />
+    </configuration>
+    <configuration default="false" name="stream.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="stream.js" working-dir="$PROJECT_DIR$/stream">
+      <method />
+    </configuration>
+    <configuration default="false" name="trans.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="trans.js" working-dir="$PROJECT_DIR$/stream">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -292,19 +303,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.http.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.demo.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.server.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.ejs.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.stream.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.buffer.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.stream.js (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.trans.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.ejs.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.server.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.http.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.demo.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.stream.js (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.trans.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.buffer.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.stream.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -335,12 +346,22 @@
       <workItem from="1492217050554" duration="427000" />
       <workItem from="1492218763484" duration="13134000" />
       <workItem from="1492238091039" duration="1987000" />
-      <workItem from="1492243887453" duration="11416000" />
+      <workItem from="1492243887453" duration="11473000" />
+      <workItem from="1492404235275" duration="182000" />
+      <workItem from="1492406127515" duration="8000" />
+      <workItem from="1492406177272" duration="20000" />
+      <workItem from="1492477593161" duration="2496000" />
+      <workItem from="1492485080339" duration="3239000" />
+      <workItem from="1492494837103" duration="2858000" />
+      <workItem from="1492505805332" duration="3099000" />
+      <workItem from="1492515773874" duration="16000" />
+      <workItem from="1492570037997" duration="4151000" />
+      <workItem from="1492584746722" duration="8237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71096000" />
+    <option name="totallyTimeSpent" value="95459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,17 +373,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="640" extended-state="0" />
+    <frame x="0" y="23" width="1024" height="547" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17311609" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21283096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3417191" sideWeight="0.5040733" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.422807" sideWeight="0.49592668" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.389011" sideWeight="0.49592668" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40877193" sideWeight="0.49592668" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4245614" sideWeight="0.49592668" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -370,7 +391,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -385,39 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/demo.js" />
-    <entry file="file://$PROJECT_DIR$/addon.node" />
-    <entry file="file://$PROJECT_DIR$/html/b.js" />
-    <entry file="file://$PROJECT_DIR$/html/require.js" />
-    <entry file="file://$PROJECT_DIR$/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/html/index.js" />
-    <entry file="file://$PROJECT_DIR$/html/a.js" />
-    <entry file="file://$PROJECT_DIR$/demo.json" />
-    <entry file="file://$PROJECT_DIR$/html/demo.node" />
-    <entry file="file://$PROJECT_DIR$/demo.node" />
-    <entry file="file://$PROJECT_DIR$/hello.js" />
-    <entry file="file://$PROJECT_DIR$/hello.cc" />
-    <entry file="file://$PROJECT_DIR$/binding.gyp" />
-    <entry file="file://$PROJECT_DIR$/build/Release/addon.node" />
-    <entry file="file://$PROJECT_DIR$/1.php" />
-    <entry file="file://$PROJECT_DIR$/abc.html" />
-    <entry file="file://$PROJECT_DIR$/node_modules/js.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/js/aa.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/js/package.json" />
-    <entry file="file://$PROJECT_DIR$/1.html" />
-    <entry file="file://$PROJECT_DIR$/node_modules/less/package.json" />
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/abc/node_modules/static-server-uek-yyj/package.json" />
-    <entry file="file://$PROJECT_DIR$/abc/node_modules/static-server-uek-yyj/http.js" />
-    <entry file="file://$PROJECT_DIR$/abc/package.json" />
-    <entry file="file://$PROJECT_DIR$/abc/1.css" />
-    <entry file="file://$PROJECT_DIR$/abc/a.css" />
-    <entry file="file://$PROJECT_DIR$/abc/index.js" />
-    <entry file="file://$PROJECT_DIR$/aa.css" />
-    <entry file="file://$PROJECT_DIR$/sadsa.css" />
-    <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="file://$PROJECT_DIR$/index.js" />
     <entry file="file://$PROJECT_DIR$/html.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -465,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="37" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="6" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -481,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,47 +481,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/http/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
+        <state relative-caret-position="144">
           <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/abcd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="99" column="34" lean-forward="false" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,6 +495,219 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/package.json" />
+    <entry file="file://$PROJECT_DIR$/http/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/package.json" />
+    <entry file="file://$PROJECT_DIR$/http/app222.js/app.js" />
+    <entry file="file://$PROJECT_DIR$/http/css/1.css" />
+    <entry file="file://$PROJECT_DIR$/http/mycss/1.js" />
+    <entry file="file://$PROJECT_DIR$/http/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/css/1.js" />
+    <entry file="file://$PROJECT_DIR$/http/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/http/abcd.html" />
+    <entry file="file://$PROJECT_DIR$/gulp/src/css/1.css" />
+    <entry file="file://$PROJECT_DIR$/http/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/dest/js/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="112" lean-forward="false" selection-start-line="0" selection-start-column="112" selection-end-line="0" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/dest/css/1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="0" column="67" lean-forward="false" selection-start-line="0" selection-start-column="67" selection-end-line="0" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/ajax/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/core/ready.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/core/access.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1812">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/css/showHide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2808">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/event/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/event/alias.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-708">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/event/focusin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1740">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/src/event/support.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/dist/jquery.min.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/node_modules/jquery/dist/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/dest/js/min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="0" column="90" lean-forward="false" selection-start-line="0" selection-start-column="90" selection-end-line="0" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/src/js/2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/src/js/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/src/less/1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buffer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buffer/buffer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/trans.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>

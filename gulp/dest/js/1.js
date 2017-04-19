@@ -1,0 +1,1 @@
+function aa(o){alert(o)}function bb(o,a){alert(o+a)}aa("我是超人2222"),bb(2,3),console.log("123"),console.log(Math.random());
