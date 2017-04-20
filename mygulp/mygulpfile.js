@@ -1,7 +1,11 @@
 var mygulp=require("./mygulp");
+var small=require("./small");
+
+
 
 mygulp.task("aaa",function(){
 
+  mygulp.src("a/b/c/*.js").pipe(mygulp.dest("c/"))
 })
 
 mygulp.task("bbb",function(){
