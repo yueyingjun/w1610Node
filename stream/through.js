@@ -1,13 +1,9 @@
-/*
-*   js 高级编程思想
-* */
 var transform=require("stream").Transform
 class throughClass extends transform{
     constructor(param){
         super(param);
     }
 }
-
 function through(callback){
      return function(opt,cb){
          if(cb==undefined){
