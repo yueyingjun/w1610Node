@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <table>
+      <tr>
+          <th>姓名</th>
+          <th>性别</th>
+          <th>年龄</th>
+          <th>班级</th>
+          <th>操作</th>
+      </tr>
+      <%if (result.length==0){%>
+      <tr>
+          <td colspan="5">没有任何信息</td>
+
+      </tr>
+      <%}else{%>
+
+       <%for(var i=0;i<result.length;i++){%>
+      <tr>
+          <td>
+              <%=result[i].name%>
+          </td>
+          <td>
+              <%if(result[i].sex==1){%>
+                男
+              <%}else if(result[i].sex==2){%>
+                女
+              <%}else{%>
+                保密
+              <%}%>
+
+          </td>
+          <td>
+              <%=result[i].age%>
+          </td>
+          <td>
+              <%=result[i].classes%>
+          </td>
+          <td>
+              <a href="/del/<%=result[i].id%>">删除</a>
+              <a href="/edit/<%=result[i].id%>">编辑</a>
+          </td>
+      </tr>
+      <%}%>
+      <%}%>
+  </table>
+
+  <a href="/add" class="add">添加信息</a>
+</body>
+</html>

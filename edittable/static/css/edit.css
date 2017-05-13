@@ -1,0 +1,19 @@
+table{
+    width:600px;
+    border-collapse: collapse;
+    border:1px solid #000;
+    margin:auto;
+}
+td,th{
+    border:1px solid #000;
+}
+.add{
+    box-sizing: border-box;
+    width:600px;height:30px;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid #000;
+    cursor: pointer;
+    margin:auto;
+    border-top:none;
+}
